@@ -1,0 +1,108 @@
+body {
+  background-color: #f8f0e3;
+}
+
+#navbarTitle {
+  color: #f8f0e3;
+}
+
+#navButton {
+  background-color: #f8f0e3;
+}
+
+#mainTitle {
+  font-family: bely-display, sans-serif;
+}
+
+h2 {
+  font-family: bely, serif;
+  font-weight: 700;
+}
+
+a {
+  font-family: bely, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+button {
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#notMain {
+  font-family: bely, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.footerImages {
+  margin: 1.5%;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+#footerImages:hover {
+  fill: red;
+}
+
+#mainImage {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.techStack {
+  max-width: 10rem;
+  height: auto;
+  display: inline-block;
+}
+
+a :active {
+  color: red;
+}
+
+h1,
+p {
+  margin-bottom: 0.75em;
+}
+
+.display-none {
+  visibility: hidden;
+}
+
+/* ------------Media Queries------------- */
+
+@media screen and (max-width: 992px) {
+  .breakDown {
+    display: block;
+  }
+  #navbarTitle {
+    display: block;
+    font-size: 30px;
+    margin: 18px;
+    padding-bottom: 10px;
+  }
+  .btn {
+    font-size: 28px;
+    margin: 10px;
+  }
+  #mainImage {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
