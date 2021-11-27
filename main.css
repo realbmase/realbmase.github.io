@@ -44,6 +44,7 @@ p {
   font-size: 80px;
 }
 
+/* Changes the default png to a white color in order to contrast the dark footer */
 .footerImages {
   margin: 1.5%;
   -webkit-filter: invert(1);
@@ -80,7 +81,7 @@ p {
 
              /* ------------Media Queries------------- */
 
-/* This site is made with inline-css as well that Bootstrap 5 provides */
+/* This site is made with inline-css styles as well as Bootstrap 5 classes */
 
 /* This query is made with the intention of targeting the NavBar elements when it collapses into a dropdown on smaller viewports */ 
 @media screen and (max-width: 991px) {
