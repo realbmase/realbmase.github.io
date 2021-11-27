@@ -78,8 +78,11 @@ p {
   visibility: hidden;
 }
 
-/* ------------Media Queries------------- */
+             /* ------------Media Queries------------- */
 
+/* This site is made with inline-css as well that Bootstrap 5 provides */
+
+/* This query is made with the intention of targeting the NavBar elements when it collapses into a dropdown on smaller viewports */ 
 @media screen and (max-width: 992px) {
   .breakDown {
     display: block;
